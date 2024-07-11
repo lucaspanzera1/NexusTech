@@ -1,0 +1,165 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color:white; /* Mudar a opacidade para ajustar a transparência */
+    border-radius: 10px;
+    border: 3px solid transparent; /* Criar um espaço ao redor */
+    background-clip: content-box;
+}
+
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url(img/Body.png);
+    background-attachment: fixed;
+    margin: 0;
+    background-color: #363636;
+}
+header{
+    height: 150px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 40% auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+header div{
+    transition: 0.6s;
+    cursor: pointer;
+}
+header div:hover{
+    transform: scale(1.05);
+}
+
+#ImgsSessao1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+}
+#sessao1{
+    color: white;
+    margin-left: 15%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#sessao1 h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+#sessao1 h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -1.5%;
+}
+#sessao1 h2 a{
+    font-weight: 600;
+}
+#sessao1 h3{
+    margin-top: -1.5%;
+    font-size: 20px;
+    width: 360px;
+}
+
+#sessao2{
+    height: 430px;
+    background-color: #262626;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#sessao2 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#sessao2 h2{
+    font-size: 20px;
+    font-weight: 400;
+    width: 380px;
+}
+#sessao2 div{
+    height: 100px;
+}
+#Bordas{
+    width: 500px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+#Bordas h1{
+    padding-left: 15%;
+}
+#Bordas h2{
+    padding-left: 15%;
+}
+
+
+#sessao4{
+    width: 100%;
+    height: 950px;
+    background-color: #363636;
+    color: white;
+    
+}
+#sessaoGrid{
+    padding-left: 10%;
+    padding-right: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto 300px;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+#sessaoGrid2{
+    padding-left: 10%;
+    padding-right: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+#sessao4 div{
+    text-align: center;
+    transition: 0.6s;
+    cursor: pointer;
+}
+#sessao4 div:hover{
+    transform: scale(1.05);
+}
+#sessao4 img {
+    width: 297.5px; 
+    height: 297.5px; 
+    background-color: #D9D9D9;
+}
+#ColabImg{
+    position: absolute;
+    left: 70%;
+    top: 115%;
+}
+#sessao4 h1 {
+    font-size: 34px; 
+    font-weight: 600;
+    margin-top: 4.25%; 
+}
+
+#sessao4 h2 {
+    font-size: 23.8px; 
+    font-weight: 400;
+    margin-top: -3.4%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
