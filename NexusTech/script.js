@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.scrollTo(0, 0);
 
     let currentSection = 0; // Começa em 0 para o scroll inicial
-    const sections = ['#sessao0', '#sessao4'];
+    const sections = ['#sessao0', '#sessao3', '#sessao4'];
 
     // Listener para o evento de scroll do mouse
     window.addEventListener('wheel', function(event) {
@@ -69,5 +69,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-

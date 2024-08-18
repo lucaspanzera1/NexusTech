@@ -7,8 +7,6 @@
 }
 ::-webkit-scrollbar-thumb {
     background-color:white; /* Mudar a opacidade para ajustar a transparência */
-    border-radius: 10px;
-    border: 3px solid transparent; /* Criar um espaço ao redor */
     background-clip: content-box;
 }
 
@@ -20,7 +18,7 @@ body{
     background-image: url(img/Body.png);
     background-attachment: fixed;
     margin: 0;
-    background-color: #363636;
+    background-color: black;
 }
 header{
     height: 150px;
@@ -29,7 +27,7 @@ header{
     font-size: 25px;
     font-weight: 500;
     display: grid;
-    grid-template-columns: 40% auto auto auto auto;
+    grid-template-columns: 50%  auto auto auto;
     justify-content: space-between;
     align-items: center;
     padding-left: 15%;
@@ -42,12 +40,16 @@ header div{
 header div:hover{
     transform: scale(1.05);
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
 #ImgsSessao1{
     position: absolute;
     left: 50%;
     top: 8%;
 }
+
 #sessao1{
     color: white;
     margin-left: 15%;
@@ -71,7 +73,6 @@ header div:hover{
     font-size: 20px;
     width: 360px;
 }
-
 #sessao2{
     height: 430px;
     background-color: #262626;
@@ -106,60 +107,68 @@ header div:hover{
 #Bordas h2{
     padding-left: 15%;
 }
-
-
-#sessao4{
-    width: 100%;
-    height: 950px;
+#sessao3 {
+    padding-top: 5%;
+    height: 900px;
     background-color: #363636;
     color: white;
-    
-}
-#sessaoGrid{
-    padding-left: 10%;
-    padding-right: 15%;
-    display: grid;
-    grid-template-columns: auto auto auto 300px;
-    justify-content: space-between;
-    padding-top: 4%;
-}
-#sessaoGrid2{
-    padding-left: 10%;
-    padding-right: 15%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-between;
-}
-#sessao4 div{
-    text-align: center;
-    transition: 0.6s;
-    cursor: pointer;
-}
-#sessao4 div:hover{
-    transform: scale(1.05);
-}
-#sessao4 img {
-    width: 297.5px; 
-    height: 297.5px; 
-    background-color: #D9D9D9;
-}
-#ColabImg{
-    position: absolute;
-    left: 70%;
-    top: 115%;
-}
-#sessao4 h1 {
-    font-size: 34px; 
-    font-weight: 600;
-    margin-top: 4.25%; 
+    width: 100%;
 }
 
-#sessao4 h2 {
-    font-size: 23.8px; 
-    font-weight: 400;
-    margin-top: -3.4%;
+#sessao3 h1{
+    font-size: 40px;
+    margin-top: -20px;
+    padding-left: 15%;
 }
-a{
-    text-decoration: none;
+#Services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 3%;
+}
+#Services div{
+    width: 466px;
+    height: 613px;
+    border-radius: 15px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.6s;
+}
+#Services div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#Manuntencao{
+    background-image: url(img/manuntenção.png);
+}
+#Infra{
+    background-image: url(img/infra.png);
+}
+#Sistema{
+    background-image: url(img/sistema.png);
+}
+#sessao4{
+    height: 435px;
     color: white;
+    display: grid;
+    grid-template-columns: 400px 700px auto;
+    padding-left: 11%;
+    align-items: center;
+}
+#sessao4 div{
+    height: 220px;
+}
+#sessao4 h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+#sessao4 h2{
+    font-size: 20px;
+    font-weight: 100;   
 }
