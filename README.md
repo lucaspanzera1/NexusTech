@@ -1,2 +1,3 @@
-# NexusTech
-Site para trabalho da matéria de REDES, colégio COTEMIG.
+# NexusTech 🌐
+![License](https://img.shields.io/badge/lucaspanzera-nexustech-blue)
+</br>
