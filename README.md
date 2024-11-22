@@ -32,10 +32,12 @@ $ cd NexusTech
 
 ```plaintext
 nexustech/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
+├── content/
+├── controller/
+├── img/
+├── model/
+├── resources/
+├── view/
 ├── index.html
 └── README.md
 ```
