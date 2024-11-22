@@ -1,0 +1,174 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color:white; /* Mudar a opacidade para ajustar a transparência */
+    background-clip: content-box;
+}
+
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-image: url(img/Body.png);
+    background-attachment: fixed;
+    margin: 0;
+    background-color: black;
+}
+header{
+    height: 150px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 50%  auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+header div{
+    transition: 0.6s;
+    cursor: pointer;
+}
+header div:hover{
+    transform: scale(1.05);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#ImgsSessao1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+}
+
+#sessao1{
+    color: white;
+    margin-left: 15%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#sessao1 h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+#sessao1 h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -1.5%;
+}
+#sessao1 h2 a{
+    font-weight: 600;
+}
+#sessao1 h3{
+    margin-top: -1.5%;
+    font-size: 20px;
+    width: 360px;
+}
+#sessao2{
+    height: 430px;
+    background-color: #262626;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#sessao2 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#sessao2 h2{
+    font-size: 20px;
+    font-weight: 400;
+    width: 380px;
+}
+#sessao2 div{
+    height: 100px;
+}
+#Bordas{
+    width: 500px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+#Bordas h1{
+    padding-left: 15%;
+}
+#Bordas h2{
+    padding-left: 15%;
+}
+#sessao3 {
+    padding-top: 5%;
+    height: 900px;
+    background-color: #363636;
+    color: white;
+    width: 100%;
+}
+
+#sessao3 h1{
+    font-size: 40px;
+    margin-top: -20px;
+    padding-left: 15%;
+}
+#Services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 3%;
+}
+#Services div{
+    width: 466px;
+    height: 613px;
+    border-radius: 15px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.6s;
+}
+#Services div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#Manuntencao{
+    background-image: url(img/manuntenção.png);
+}
+#Infra{
+    background-image: url(img/infra.png);
+}
+#Sistema{
+    background-image: url(img/sistema.png);
+}
+#sessao4{
+    height: 435px;
+    color: white;
+    display: grid;
+    grid-template-columns: 400px 700px auto;
+    padding-left: 11%;
+    align-items: center;
+}
+#sessao4 div{
+    height: 220px;
+}
+#sessao4 h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+#sessao4 h2{
+    font-size: 20px;
+    font-weight: 100;   
+}
